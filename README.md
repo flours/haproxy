@@ -10,6 +10,7 @@ kubernetesのSecretやdockerの-vオプションで以下の2つのファイル�
 /etc/ssl/private/tls.crt
 /etc/ssl/private/tls.crt.key
 ```
+startup.shによって1日に1回リロードが入ります。ダウンタイムはありません。
 
 # HAProxyのDockerImage
 https://hub.docker.com/_/haproxy
