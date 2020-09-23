@@ -4,7 +4,7 @@ pid=$!
 
 while true
 do
-  sleep 1
+  sleep 1d
   kill -1 $pid
 done
 
